@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/i18n'
   ],
+  pinia:{
+    storesDirs:['./stores/**']
+  },
   i18n: {
     strategy: 'no_prefix',
     langDir: './locales',
