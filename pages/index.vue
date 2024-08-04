@@ -1,3 +1,0 @@
-<template>
-  {{ $t('hello') }}
-</template>

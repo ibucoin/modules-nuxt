@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+
 export default defineNuxtConfig({
   ssr: false,
   compatibilityDate: '2024-04-03',
@@ -9,8 +11,8 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/i18n'
   ],
-  pinia:{
-    storesDirs:['./stores/**']
+  pinia: {
+    storesDirs: ['./stores/**']
   },
   i18n: {
     strategy: 'no_prefix',
